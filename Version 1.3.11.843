@@ -1,0 +1,32 @@
+Algoritmo practica
+	
+	Definir a como real;
+	
+	Escribir "digite su peso";
+	Leer a;
+	
+	si(a<18.5)Entonces
+		Escribir "bajo peso";
+		Escribir "delgado";
+		si(a>=18.5 y a<=24.9)entonces
+			Escribir "adecuado";
+			Escribir "aceptable";
+			si(a>=25.0 y a<=29.9)Entonces
+				Escribir "sobre peso";
+				Escribir "sobre peso";
+				si(a>=30.0 y a<=34.9)entonces
+					Escribir "obesidad grado 1";
+					Escribir "obesidad";
+					si(a>=35.0 y a<=39.9)entonces
+						Escribir "obesidad grado 2";
+						Escribir "obesidad";
+						si(a>=40)Entonces
+							Escribir "obesidad grado 2";
+							Escribir "obesidad";
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
